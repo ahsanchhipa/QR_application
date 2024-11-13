@@ -1,12 +1,11 @@
-
-import streamlit as st
+import streamlit as st # type: ignore
 import os
 import csv
 from io import StringIO, BytesIO
-from reportlab.lib.pagesizes import letter
-from reportlab.lib.units import cm
-from reportlab.pdfgen import canvas
-import qrcode
+from reportlab.lib.pagesizes import letter # type: ignore
+from reportlab.lib.units import cm # type: ignore
+from reportlab.pdfgen import canvas # type: ignore
+import qrcode # type: ignore
 
 # Function to generate QR code
 def generate_qr_code(data):
